@@ -2,9 +2,17 @@
 
 Conceptual Construction Engine.
 
-O `CCE` e um projeto separado do `CRE`, criado sobre a base de engenharia do `LabGestao` e agora orientado ao metodo de construcao conceitual.
+O `CCE` e um motor de construcao conceitual reflexiva. Ele transforma intuicoes iniciais em formulacoes conceituais mais robustas por meio de um percurso obrigatorio de tensao, restricao, expansao reflexiva, reconfiguracao e estabilizacao, sempre com `trace` explicito da construcao.
 
-Seu objetivo nao e apenas organizar ideias, mas transformar intuicoes iniciais em formulacoes conceituais robustas por meio de um fluxo obrigatorio de tensao, restricao, expansao reflexiva, reconfiguracao e estabilizacao com trace explicito.
+Nesta fase, o `CCE` e um projeto separado do `CRE`, embora tenha sido iniciado a partir da base de engenharia do `LabGestao`.
+
+## O Que Ja Funciona
+- cenarios conceituais embutidos
+- ingestao de documentos Markdown
+- analise semantica heuristica
+- memoria conceitual local com persistencia
+- geracao de artefatos `cycle`, `trace` e `report`
+- testes automatizados e build CMake
 
 ## Nucleo do Metodo
 - `Intuition Seed`: entrada inicial da intuicao
@@ -26,57 +34,73 @@ Invariantes iniciais:
 - toda saida precisa registrar trace
 - reflexividade e obrigatoria
 
-## Bootstrap
-- Configurar build:
-  - `cmake -S . -B build -G Ninja -DCMAKE_EXPORT_COMPILE_COMMANDS=ON`
-- Compilar:
-  - `cmake --build build`
-- Testar:
-  - `ctest --test-dir build --output-on-failure`
-- Quality local:
-  - `./scripts/run_quality.sh`
-- Validar governança:
-  - `python3 scripts/validate_tool_contracts.py`
-  - `python3 scripts/validate_governance_repo.py`
-- Instalar hooks:
-  - `./scripts/dev/install-git-hooks.sh`
+## Inicio Rapido
+```bash
+cmake -S . -B build -G Ninja -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+cmake --build build
+ctest --test-dir build --output-on-failure
+```
 
-## CLI Inicial
-- Rodar a demonstracao textual:
-  - `./build/cce`
-  - `./build/cce demo`
-  - `./build/cce demo --scenario education-formation`
-  - `./build/cce demo --scenario socioecological-reflexivity`
-- Listar cenarios embutidos:
-  - `./build/cce list-scenarios`
-- Registrar um ciclo conceitual em Markdown:
-  - `./build/cce record-cycle`
-  - `./build/cce record-cycle --output ./output`
-  - `./build/cce record-cycle --scenario knowledge-reality`
+Demonstracao basica:
 
-Cenarios embutidos:
+```bash
+./build/cce
+./build/cce demo --scenario socioecological-reflexivity
+```
+
+Ingestao de documento:
+
+```bash
+./build/cce ingest --input examples/resilience_ontological_test_doc.md
+./build/cce ingest-record --input examples/resilience_ontological_test_doc.md --output ./output
+```
+
+Memoria conceitual:
+
+```bash
+./build/cce memory-inspect
+./build/cce memory-query --scenario resilience-ontological-test-doc
+```
+
+## CLI
+- `./build/cce`
+- `./build/cce demo --scenario <id>`
+- `./build/cce list-scenarios`
+- `./build/cce record-cycle --scenario <id> --output <dir>`
+- `./build/cce ingest --input <arquivo.md>`
+- `./build/cce ingest-record --input <arquivo.md> --output <dir>`
+- `./build/cce memory-inspect`
+- `./build/cce memory-query --scenario <id> --limit <n>`
+- `./build/cce memory-query --input <arquivo.md> --limit <n>`
+
+## Cenarios Embutidos
 - `knowledge-reality`
 - `education-formation`
 - `socioecological-reflexivity`
 
+Caso canonico atual:
+- `socioecological-reflexivity` materializa o argumento sobre conhecimento instrumentalizado, Humanidades, reflexividade critica, reconfiguracao das condicoes de inteligibilidade e ampliacao do campo do possivel
+
+## Artefatos
 Os artefatos gerados registram:
 - ciclo conceitual consolidado
 - trace da construcao
 - relatorio final de estabilizacao
 
-Caso canonico atual:
-- `socioecological-reflexivity` materializa o argumento sobre conhecimento instrumentalizado, Humanidades, reflexividade critica, reconfiguracao das condicoes de inteligibilidade e ampliacao do campo do possivel
+A memoria conceitual local fica em:
+- `.cce/concept_memory.tsv`
 
 ## Estrutura
-- `src/`: implementação
-- `include/`: headers públicos
+- `src/`: implementacao
+- `include/`: headers publicos
 - `tests/`: testes automatizados
+- `examples/`: documentos de teste
 - `adr/`: decisoes arquiteturais
 - `ddd/`: modelagem de dominio
 - `policies/`: regras operacionais
-- `mcp/`: contratos executáveis para ferramentas/agentes
+- `mcp/`: contratos executaveis para ferramentas e agentes
 - `prompts/`: contexto estruturado
-- `scripts/`: automações locais
+- `scripts/`: automacoes locais
 - `.github/workflows/`: CI
 
 ## Separacao em Relacao ao CRE
