@@ -4,14 +4,14 @@
 Aceito
 
 ## Contexto
-Politicas textuais orientam, mas nao controlam um agente sem enforcement.
+Políticas textuais orientam, mas não controlam um agente sem enforcement.
 
-## Decisao
-Uso de IA deve seguir politicas explicitas com evidencia e aprovacao proporcionais ao risco.
+## Decisão
+Uso de IA deve seguir políticas explícitas com evidência e aprovação proporcionais ao risco.
 
 ## Regras
-- Nao confiar cegamente
+- Não confiar cegamente
 - Sempre validar outputs
-- Revisao obrigatoria
-- Toda tarefa executavel deve declarar modo operacional
-- Toda saida relevante deve produzir evidencia rastreavel
+- Revisão obrigatória
+- Toda tarefa executável deve declarar modo operacional
+- Toda saída relevante deve produzir evidência rastreável

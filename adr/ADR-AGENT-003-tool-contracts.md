@@ -7,9 +7,9 @@ Aceito
 Ferramentas sem contrato verificavel aumentam comportamento imprevisivel.
 
 ## Decisao
-Ferramentas acessadas pela IA devem ter contratos executaveis.
+Ferramentas acessadas pela IA devem ter contratos executáveis.
 
 ## Consequencias
-- Padronizacao de inputs e outputs
-- Declaracao de permissoes, precondicoes e bloqueios
-- Possibilidade de enforcement automatico
+- Padronização de inputs e outputs
+- Declaração de permissões, precondições e bloqueios
+- Possibilidade de enforcement automático

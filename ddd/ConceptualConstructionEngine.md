@@ -1,8 +1,8 @@
 # Conceptual Construction Engine
 
-## Definicao
+## Definição
 
-O `CCE` e um sistema de construcao conceitual reflexiva que transforma intuicoes iniciais em formulacoes conceituais robustas por meio de operacoes obrigatorias de tensao, aplicacao de restricoes, expansao reflexiva, reconfiguracao e estabilizacao com rastreabilidade explicita.
+O `CCE` é um sistema de construção conceitual reflexiva que transforma intuições iniciais em formulações conceituais robustas por meio de operações obrigatórias de tensão, aplicação de restrições, expansão reflexiva, reconfiguração e estabilização com rastreabilidade explícita.
 
 ## Componentes
 
@@ -15,38 +15,38 @@ O `CCE` e um sistema de construcao conceitual reflexiva que transforma intuicoes
 - `TraceEvent`
 - `ConstructionCycle`
 
-## Fluxo Canonico
+## Fluxo Canônico
 
-1. Registrar a intuicao sem normalizacao prematura
-2. Aplicar tensao explicita
-3. Aplicar restricoes epistemicas
+1. Registrar a intuição sem normalização prematura
+2. Aplicar tensão explícita
+3. Aplicar restrições epistêmicas
 4. Expandir reflexivamente
-5. Reconfigurar a formulacao
+5. Reconfigurar a formulação
 6. Estabilizar o conceito
 7. Registrar todo o trace
 
 ## Invariantes
 
-- nenhum ciclo e valido sem tensao explicita
-- nenhum ciclo e valido sem camada reflexiva
-- nenhum ciclo e valido se houver violacoes nas restricoes
-- nenhuma saida e valida sem trace
+- nenhum ciclo é válido sem tensão explícita
+- nenhum ciclo é válido sem camada reflexiva
+- nenhum ciclo é válido se houver violações nas restrições
+- nenhuma saída é válida sem trace
 
-## Relacao com Outros Sistemas
+## Relação com Outros Sistemas
 
-O `CCE` e independente nesta fase.
+O `CCE` é independente nesta fase.
 
-No futuro, suas saidas podem funcionar como insumos para motores experimentais, inclusive o `CRE`, sem exigir acoplamento estrutural imediato.
+No futuro, suas saídas podem funcionar como insumos para motores experimentais sem exigir acoplamento estrutural imediato.
 
-## Caso Canonico Atual
+## Caso Canônico Atual
 
-O caso `socioecological-reflexivity` funciona como materializacao do metodo em uma construcao argumentativa mais densa.
+O caso `socioecological-reflexivity` funciona como materialização do método em uma construção argumentativa mais densa.
 
-Seu movimento principal e:
+Seu movimento principal é:
 
-- partir de uma intuicao sobre conhecimento e transformacao
+- partir de uma intuição sobre conhecimento e transformação
 - tensionar instrumentalismo, teleologia e normatividade
-- introduzir a critica aos regimes de conhecimento instrumentalizados
-- deslocar o foco para reflexividade critica e Humanidades
-- reconfigurar o argumento em termos de condicoes de inteligibilidade
-- estabilizar a saida como ampliacao do possivel, e nao garantia de transformacao
+- introduzir a crítica aos regimes de conhecimento instrumentalizados
+- deslocar o foco para reflexividade crítica e Humanidades
+- reconfigurar o argumento em termos de condições de inteligibilidade
+- estabilizar a saída como ampliação do possível, e não garantia de transformação

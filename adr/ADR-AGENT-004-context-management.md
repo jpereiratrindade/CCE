@@ -4,12 +4,12 @@
 Aceito
 
 ## Contexto
-O agente nao preserva intencao com confiabilidade sem contexto explicito.
+O agente não preserva intenção com confiabilidade sem contexto explícito.
 
-## Decisao
-Contexto deve ser explicito, versionado e reintroduzido por tarefa.
+## Decisão
+Contexto deve ser explícito, versionado e reintroduzido por tarefa.
 
 ## Estrategia
 - Uso de prompts estruturados
-- Reinicio controlado de contexto
-- Modos operacionais explicitos: explore, safe-change, restricted
+- Reinício controlado de contexto
+- Modos operacionais explícitos: explore, safe-change, restricted

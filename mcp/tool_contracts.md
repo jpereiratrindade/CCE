@@ -1,8 +1,8 @@
 # Tool Contracts
 
-Define contratos executaveis de interacao entre agente e ferramentas.
+Define contratos executáveis de interação entre agente e ferramentas.
 
-## Campos obrigatorios
+## Campos obrigatórios
 - contract_version
 - tool_name
 - tool
@@ -18,12 +18,12 @@ Define contratos executaveis de interacao entre agente e ferramentas.
 - output_schema
 
 ## Regras operacionais
-- Ferramentas sem contrato valido nao podem ser usadas em modo executavel
-- Ferramentas de risco high ou critical exigem aprovacao humana
-- Toda ferramenta deve apontar para politicas que justificam seu uso
-- Toda ferramenta deve declarar evidencias minimas de auditoria
+- Ferramentas sem contrato válido não podem ser usadas em modo executável
+- Ferramentas de risco high ou critical exigem aprovação humana
+- Toda ferramenta deve apontar para políticas que justificam seu uso
+- Toda ferramenta deve declarar evidências mínimas de auditoria
 
 ## Modo operacional
-- explore: leitura, analise e planejamento
-- safe-change: alteracao controlada com validacao
-- restricted: alteracao apenas sob politicas mais rigidas e aprovacao explicita
+- explore: leitura, análise e planejamento
+- safe-change: alteração controlada com validação
+- restricted: alteração apenas sob políticas mais rígidas e aprovação explícita

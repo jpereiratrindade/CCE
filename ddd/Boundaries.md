@@ -1,6 +1,6 @@
 # Boundaries
 
 ## Regras
-- IA nao pode cruzar contextos sem contrato
-- Comunicacao via interfaces explicitas
-- Contextos criticos exigem aprovacao especifica para escrita
+- IA não pode cruzar contextos sem contrato
+- Comunicação via interfaces explícitas
+- Contextos críticos exigem aprovação específica para escrita

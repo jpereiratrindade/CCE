@@ -1,80 +1,80 @@
 # Test Doc
-## Construcao Ontologica de Resiliencia
+## Construção Ontológica de Resiliência
 
-### 1. Intuicao Inicial
+### 1. Intuição Inicial
 
-Resiliencia e a capacidade de manter-se coerente enquanto se reconfigura diante de perturbacoes.
+Resiliência é a capacidade de manter-se coerente enquanto se reconfigura diante de perturbações.
 
-### 2. Problema Ontologico
+### 2. Problema Ontológico
 
-A nocao de resiliencia costuma ser reduzida a:
+A noção de resiliência costuma ser reduzida a:
 - retorno ao estado anterior
-- resistencia passiva
-- adaptacao funcional
-- estabilidade sem transformacao
+- resistência passiva
+- adaptação funcional
+- estabilidade sem transformação
 
-Essas leituras tornam-se insuficientes quando o fenomeno observado envolve sistemas complexos compostos por dimensoes interdependentes.
+Essas leituras tornam-se insuficientes quando o fenômeno observado envolve sistemas complexos compostos por dimensões interdependentes.
 
-### 3. Hipotese de Construcao
+### 3. Hipótese de Construção
 
-A resiliencia nao deve ser entendida como simples permanencia, nem como mudanca ilimitada, mas como uma dinamica em que um sistema preserva sua coerencia ao mesmo tempo em que reconfigura suas formas de organizacao diante de perturbacoes.
+A resiliência não deve ser entendida como simples permanência, nem como mudança ilimitada, mas como uma dinâmica em que um sistema preserva sua coerência ao mesmo tempo em que reconfigura suas formas de organização diante de perturbações.
 
 ### 4. Campo Dimensional
 
-Nesta formulacao, a resiliencia emerge da relacao entre tres dimensoes constitutivas:
-- dimensao ecologica
-- dimensao produtiva
-- dimensao social
+Nesta formulação, a resiliência emerge da relação entre três dimensões constitutivas:
+- dimensão ecológica
+- dimensão produtiva
+- dimensão social
 
-Ela nao pertence isoladamente a nenhuma delas, mas resulta da articulacao entre essas dimensoes em situacao.
+Ela não pertence isoladamente a nenhuma delas, mas resulta da articulação entre essas dimensões em situação.
 
-### 5. Primeira Tensao
+### 5. Primeira Tensão
 
-Se a resiliencia for definida apenas como estabilidade:
-- perde-se a dimensao transformativa
-- reduz-se o conceito a conservacao
+Se a resiliência for definida apenas como estabilidade:
+- perde-se a dimensão transformativa
+- reduz-se o conceito à conservação
 - ignora-se a plasticidade do sistema
 
-### 6. Segunda Tensao
+### 6. Segunda Tensão
 
-Se a resiliencia for definida apenas como adaptacao:
+Se a resiliência for definida apenas como adaptação:
 - perde-se a coerencia interna do sistema
-- qualquer mudanca passa a parecer resiliente
-- dissolve-se o criterio ontologico de continuidade
+- qualquer mudança passa a parecer resiliente
+- dissolve-se o critério ontológico de continuidade
 
 ### 7. Deslocamento Conceitual
 
 O conceito precisa ser deslocado:
 - de estabilidade para coerencia
-- de adaptacao para reconfiguracao
-- de atributo isolado para emergencia relacional
+- de adaptação para reconfiguração
+- de atributo isolado para emergência relacional
 
-Assim, resiliencia deixa de ser mera resistencia ao choque e passa a ser a capacidade de reorganizacao sem perda de consistencia estrutural.
+Assim, resiliência deixa de ser mera resistência ao choque e passa a ser a capacidade de reorganização sem perda de consistência estrutural.
 
-### 8. Formulacao Provisoria
+### 8. Formulação Provisória
 
-Resiliencia e uma dimensao emergente da articulacao entre as dimensoes ecologica, produtiva e social, pela qual um sistema mantem sua coerencia enquanto se reconfigura diante de perturbacoes.
+Resiliência é uma dimensão emergente da articulação entre as dimensões ecológica, produtiva e social, pela qual um sistema mantém sua coerência enquanto se reconfigura diante de perturbações.
 
-### 9. Implicacoes Ontologicas
+### 9. Implicações Ontológicas
 
-Essa formulacao implica que:
-- resiliencia nao e sinonimo de imobilidade
-- resiliencia nao e qualquer adaptacao
-- perturbacao nao e apenas ameaca, mas condicao de reconfiguracao
-- coerencia nao significa rigidez, mas continuidade inteligivel
+Essa formulação implica que:
+- resiliência não é sinônimo de imobilidade
+- resiliência não é qualquer adaptação
+- perturbação não é apenas ameaça, mas condição de reconfiguração
+- coerência não significa rigidez, mas continuidade inteligível
 
-### 10. Formulacao Mais Forte
+### 10. Formulação Mais Forte
 
-A resiliencia consiste na capacidade de um sistema de sustentar continuidade ontologica por meio de reconfiguracoes situadas, emergindo da relacao dinamica entre dimensoes ecologicas, produtivas e sociais diante de perturbacoes.
+A resiliência consiste na capacidade de um sistema de sustentar continuidade ontológica por meio de reconfigurações situadas, emergindo da relação dinâmica entre dimensões ecológicas, produtivas e sociais diante de perturbações.
 
 ### 11. Fecho
 
-Portanto, a resiliencia pode ser compreendida como:
+Portanto, a resiliência pode ser compreendida como:
 
-manter-se coerente enquanto se reconfigura diante de perturbacoes.
+manter-se coerente enquanto se reconfigura diante de perturbações.
 
-Essa definicao procura preservar simultaneamente:
+Essa definição procura preservar simultaneamente:
 - continuidade
-- transformacao
-- emergencia
+- transformação
+- emergência
 - relacionalidade

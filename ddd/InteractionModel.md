@@ -2,10 +2,10 @@
 
 Fluxo:
 1. Input humano
-2. Context packet explicito
+2. Context packet explícito
 3. Processamento pelo agente
-4. Validacao de contrato
-5. Aprovacao quando exigida
-6. Execucao controlada
-7. Coleta de evidencias
-8. Validacao final
+4. Validação de contrato
+5. Aprovação quando exigida
+6. Execução controlada
+7. Coleta de evidências
+8. Validação final

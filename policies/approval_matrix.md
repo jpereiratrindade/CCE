@@ -1,11 +1,11 @@
 # Approval Matrix
 
 ## Regras por tipo de mudanca
-- docs: aprovacao humana simples
-- config: aprovacao humana simples com diff revisado
-- codigo fora de contexto critico: aprovacao humana simples e testes
-- codigo em contexto critico: aprovacao humana obrigatoria com politica required_if_core_module
-- acao destrutiva: aprovacao humana obrigatoria com politica required_if_destructive
+- docs: aprovação humana simples
+- config: aprovação humana simples com diff revisado
+- código fora de contexto crítico: aprovação humana simples e testes
+- código em contexto crítico: aprovação humana obrigatória com política required_if_core_module
+- ação destrutiva: aprovação humana obrigatória com política required_if_destructive
 
 ## Evidencias minimas
 - task_id

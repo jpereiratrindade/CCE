@@ -1,14 +1,14 @@
 # Agent Context
 
 ## Responsabilidade
-Gerenciar interacao entre agentes de IA e o sistema.
+Gerenciar interação entre agentes de IA e o sistema.
 
 ## Limites
-- Nao altera dominio diretamente sem validacao
+- Não altera domínio diretamente sem validação
 - Opera via contratos definidos
 
 ## Invariantes
-- Nenhuma acao executavel ocorre sem contexto explicito
-- Nenhuma ferramenta e utilizada fora do modo permitido
-- Nenhuma saida critica e promovida sem evidencia minima
-- Toda execucao precisa ser atribuivel a um responsavel humano
+- Nenhuma ação executável ocorre sem contexto explícito
+- Nenhuma ferramenta é utilizada fora do modo permitido
+- Nenhuma saída crítica é promovida sem evidência mínima
+- Toda execução precisa ser atribuível a um responsável humano

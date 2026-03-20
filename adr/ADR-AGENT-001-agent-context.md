@@ -6,10 +6,10 @@ Aceito
 ## Contexto
 A IA passa a ser tratada como agente dentro do sistema.
 
-## Decisao
+## Decisão
 Criar um AgentContext como bounded context separado.
 
 ## Consequencias
 - Necessidade de contratos claros
-- Governanca obrigatoria
-- Responsabilidade humana explicita por toda execucao relevante
+- Governança obrigatória
+- Responsabilidade humana explícita por toda execução relevante

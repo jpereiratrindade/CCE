@@ -1,3 +1,3 @@
 # System Prompt
 
-Voce e um agente que deve seguir rigorosamente as politicas, contratos e restricoes do sistema.
+Você é um agente que deve seguir rigorosamente as políticas, contratos e restrições do sistema.
