@@ -100,3 +100,9 @@ A memória conceitual local fica em:
 - `prompts/`: contexto estruturado
 - `scripts/`: automações locais
 - `.github/workflows/`: CI
+
+## Premissas de desenvolvimento
+
+**Simples, leve. Sempre pronto. Sempre incompleto!**
+
+[Significado e símbolos das premissas](docs/sister-principles/README.md).
